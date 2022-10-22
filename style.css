@@ -10,20 +10,68 @@ header{
     height: 50px;
     justify-content: center;
 }
+
 .wrapper{
     max-width: 500px;
     margin: 7px auto;
 }
+.animated-text {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4.5s steps(80, end);
+}
+.home__text {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0px 0px 60px;
+}
+
 .head{
     display: flex;
     justify-content: center;
     align-items: baseline;
 }
-
 .nav{
     margin-left: auto;
     display: flex;
     align-items: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(77, 46, 201);
+    margin-top: 30px;
+    padding: 20px 0px 20px 20px;
+}
+.animated-text {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4.5s steps(80, end);
+}
+.info2 {
+    display: none;
+  }
+.project {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(20, 4, 7);
+    margin-top: 30px;
+    max-width: 100%;
+    padding: 20px 20px 0px 20px;
+
+}
+.textt {
+    margin-left: 45%;
+}
+.texttt {
+    margin-left: 40%;
+}
+.text1 {
+    margin-left: 10%;
+}
+.text2 {
+    margin-left: 30%;
 }
 .item-head{
     width: 100px;
@@ -38,11 +86,11 @@ header{
     background: rgb(212, 187, 230);
 }
 .tittle{
-    width: 17ch;
+    width: 34ch;
     font-family: monospace;
     white-space: nowrap;
     overflow: hidden;
-    animation:print-text 5s steps(17);
+    animation:print-text 5s steps(34);
 }
 @keyframes print-text{
     from{
